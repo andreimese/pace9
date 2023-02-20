@@ -15,15 +15,16 @@
 
 body {
     margin: 0;
-    background-color: rgb(234, 237, 224);
+    background-color: #ebebd8;
     font-size: 20px;
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Playfair Display', serif;
+    font-family: 'Candara', serif !important;
 }
 
 header {
     height: 60px;
-    background: linear-gradient(to right,  #ebeb56, #f9f9f1);
+    background: linear-gradient(to right,  #ebc85631, #f9f9f1);
     position: fixed;
     width: 100%;
     padding-top: 5px;
@@ -50,14 +51,14 @@ main {
     width: 180px;
     height: 100vh;
     position: fixed;
-    background: linear-gradient(to bottom, #ebeb56, #f9f9f1);
+    background: linear-gradient(to bottom,  #ebc85631, #f9f9f1);
     padding-top: 5px;
     font-size: 20px;
 }
 
 aside a {
     display: block;
-    color: rgb(54, 26, 214);
+    color: rgb(34, 34, 70);
     text-transform: unset;
     text-decoration: none;
     text-align: center;
@@ -180,6 +181,8 @@ p {
     padding: 3px;
     font-size: 16px;
 }
+
+
 
 #menu-btn {
     color: rgb(54, 18, 120);
